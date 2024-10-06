@@ -99,26 +99,26 @@ Buffs: {
 	}
 
 	BlessedSoul: {
-		// DisplayName: Blessed Soul
-		/* Description:
+		DisplayName: 祝福之魂
+		Description:
 			'''
-			World has been blessed with life.
-			Max Health + {3}
-			Damage + {2}%
-			Attack Speed + {1}%
-			Movement Speed + {0}%
-			{4}m left.
-			''' */
+			世界被赋予了生命。
+			最大生命值 + {3} 
+			伤害 + {2}%
+			攻击速度 + {1}% 
+			移动速度 + {0}% 
+			{4}米剩余。
+			'''
 	}
 
 	Rocked: {
-		// DisplayName: Rocked
-		// Description: Mods.terraguardians.Buffs.Rocked.Description
+		DisplayName: 摇滚
+		Description: Mods.terraguardians.Buffs.Rocked.Description
 	}
 
 	Fit: {
-		// DisplayName: Fit
-		// Description: You feel healthier.
+		DisplayName: 健康
+		Description: 你感觉更健康了。
 	}
 }
 
@@ -256,47 +256,47 @@ Items: {
 }
 
 NPCs: {
-	CompanionNpcSpawner.DisplayName: Companion Npc Spawner
-	AlexSpawner.DisplayName: Alex Spawner
-	BlueSpawner.DisplayName: Blue Spawner
-	BreeSpawner.DisplayName: Bree Spawner
-	BrutusSpawner.DisplayName: Brutus Spawner
-	CelesteSpawner.DisplayName: Celeste Spawner
-	DominoSpawner.DisplayName: Domino Spawner
-	LeopoldSpawner.DisplayName: Leopold Spawner
-	LunaSpawner.DisplayName: Luna Spawner
-	MabelSpawner.DisplayName: Mabel Spawner
-	MichelleSpawner.DisplayName: Michelle Spawner
-	RococoSpawner.DisplayName: Rococo Spawner
-	VladimirSpawner.DisplayName: Vladimir Spawner
-	ZackSpawner.DisplayName: Zack Spawner
-	EtherPortal.DisplayName: Ether Portal
-	HeadSnatcher.DisplayName: Head Snatcher
-	GuardianBane.DisplayName: Guardian Bane
-	MalishaSpawner.DisplayName: Malisha Spawner
-	WrathSpawner.DisplayName: Wrath Spawner
-	GenericTerrarianSpawner.DisplayName: Generic Terrarian Spawner
-	AlexanderSpawner.DisplayName: Alexander Spawner
-	FlufflesJSNpc.DisplayName: Fluffles J S Npc
-	FlufflesSpawner.DisplayName: Fluffles Spawner
-	// MinervaSpawner.DisplayName: Minerva Spawner
-	// LiebreSpawner.DisplayName: Liebre Spawner
-	// GlennSpawner.DisplayName: Glenn Spawner
-	// CinnamonSpawner.DisplayName: Cinnamon Spawner
-	// MiguelSpawner.DisplayName: Miguel Spawner
+	CompanionNpcSpawner.DisplayName: 伙伴 NPC 生成器
+	AlexSpawner.DisplayName: 亚历克斯生成器
+	BlueSpawner.DisplayName: 蓝色生成器
+	BreeSpawner.DisplayName: 布里生成器
+	BrutusSpawner.DisplayName: 布鲁图斯生成器
+	CelesteSpawner.DisplayName: 塞莱斯特生成器
+	DominoSpawner.DisplayName: 多米诺生成器
+	LeopoldSpawner.DisplayName: 利奥波德生成器
+	LunaSpawner.DisplayName: 吕娜生成器
+	MabelSpawner.DisplayName: 梅布尔生成器
+	MichelleSpawner.DisplayName: 米歇尔生成器
+	RococoSpawner.DisplayName: 洛可可生成器
+	VladimirSpawner.DisplayName: 弗拉基米尔生成器
+	ZackSpawner.DisplayName: 扎克生成器
+	EtherPortal.DisplayName: 以太门户
+	HeadSnatcher.DisplayName: 夺头者
+	GuardianBane.DisplayName: 守护者毁灭者
+	MalishaSpawner.DisplayName: 玛莉莎生成器
+	WrathSpawner.DisplayName: 愤怒生成器
+	GenericTerrarianSpawner.DisplayName: 通用特拉里安生成器
+	AlexanderSpawner.DisplayName: 亚历山大生成器
+	FlufflesJSNpc.DisplayName: 毛茸茸 JS NPC
+	FlufflesSpawner.DisplayName: 毛茸茸生成器
+	MinervaSpawner.DisplayName: 美奈华生成器
+	LiebreSpawner.DisplayName: 列布雷生成器
+	GlennSpawner.DisplayName: 格伦生成器
+	CinnamonSpawner.DisplayName: 肉桂生成器
+	MiguelSpawner.DisplayName: 米格尔生成器
 }
 
 Projectiles: {
 	BloodVomit.DisplayName: 吐血
 	ZombieFart.DisplayName: 僵尸屁
-	// LaserPistolShot.DisplayName: Laser Pistol Shot
-	// AmberThorns.DisplayName: Amber Thorns
-	// BloodSickle.DisplayName: Blood Sickle
-	// LargeBee.DisplayName: Large Bee
-	// PurpleWave.DisplayName: Purple Wave
-	// TopazShard.DisplayName: Topaz Shard
-	// Tornado.DisplayName: Tornado
-	// SapphireBolt.DisplayName: Sapphire Bolt
+	LaserPistolShot.DisplayName: 激光手枪射击
+	AmberThorns.DisplayName: 琥珀荆棘
+	BloodSickle.DisplayName: 血之镰刀
+	LargeBee.DisplayName: 大蜜蜂
+	PurpleWave.DisplayName: 紫色波浪
+	TopazShard.DisplayName: 黄玉碎片
+	Tornado.DisplayName: 龙卷风
+	SapphireBolt.DisplayName: 蓝宝石箭
 }
 
 Configs: {
@@ -339,8 +339,8 @@ Configs: {
 		}
 
 		ShowPathFinding: {
-			// Label: Show Path Finding
-			// Tooltip: ""
+			Label: 显示路径寻找
+			Tooltip: ""
 		}
 	}
 
@@ -419,8 +419,8 @@ Configs: {
 		}
 
 		CompanionsCanFaceBackgroundWhenIdle: {
-			// Label: Companions can look to the background when idle?
-			// Tooltip: When enabled, sometimes the companions will look facing the background, instead of facing screen direction when idling.
+			Label: 伙伴在闲置时可以朝向背景吗？
+			Tooltip: 启用后，有时伙伴在闲置时会朝向背景，而不是面向屏幕的方向。
 		}
 	}
 
@@ -644,9 +644,9 @@ Interface: {
 		genericokay: 好的。
 		genericclose: 关闭。
 		genericoops: 哎呀。
-		// genericnevermind: Nevermind.
-		// genericyes: Yes.
-		// genericno: No.
+		genericnevermind: 别介意。
+		genericyes: 是的.
+		genericno: 不是.
 		greet: 你好。
 		wakeupoption: 唤醒[pronoun]。
 		letsleepoption: 让[pronoun]睡觉。
@@ -742,26 +742,26 @@ Interface: {
 		dontattackmytargetoption: 不要集中攻击我正在攻击的敌人。
 		allowvisitingoption: 欢迎随时来拜访我。
 		unallowvisitingoption: 请不要再来找我了...
-		// asktoplaygameoption: Want to play a game?
-		// rpsgameaskoption: Rock, Paper and Scissors.
-		// rpspickoptionprompt: Pick one of the options.
-		// rpsrockoption: Rock.
-		// rpspaperoption: Paper.
-		// rpsscissorsoption: Scissors.
-		// rpsshout: Rock! Paper! Scissors!
-		// rpswinoption: I won!
-		// rpsloseoption: "[name] won."
-		// rpstieoption: It's a tie!
-		// rpsresult: You: [playerresult] x [opponentresult] [name].
-		// rpsrockresult: "[Rock]"
-		// rpspaperresult: "[Paper]"
-		// rpsscissorsresult: "[Scissors]"
-		/* rpsvictoriescount:
+		asktoplaygameoption: 想玩一个游戏吗？
+		rpsgameaskoption: 剪刀石头布。
+		rpspickoptionprompt: 选择一个选项。
+		rpsrockoption: 石头。
+		rpspaperoption: 布。
+		rpsscissorsoption: 剪刀。
+		rpsshout: 石头！ 布！ 剪刀！
+		rpswinoption: 我赢了！
+		rpsloseoption: "[name] 赢了。"
+		rpstieoption: 平局！
+		rpsresult: 你： [playerresult] x [opponentresult] [name]。
+		rpsrockresult: "[石头]"
+		rpspaperresult: "[布]"
+		rpsscissorsresult: "[剪刀]"
+		rpsvictoriescount:
 			'''
-			Your Victories: [playervictories]
-			[name] Victories: [opponentvictories]
-			Do you want to play again?
-			''' */
+			你的胜利次数： [playervictories]
+			[name] 胜利次数： [opponentvictories]
+			你想再玩一次吗？
+			'''
 	}
 }
 
@@ -789,225 +789,225 @@ Tactics: {
 
 Companions: {
 	Rococo: {
-		// name: Rococo
-		/* description:
+		name: Rococo
+		description:
 			'''
-			He's a good definition of a big kid, very playful and innocent.
-			Loves playing kids games, like Hide and Seek.
-			''' */
+			他是一个大孩子的很好定义，非常顽皮和天真。
+			喜欢玩儿童游戏，比如躲猫猫。
+			'''
 		//greets
-		// greet1: At first, the creature got surprised after seeing me, then starts laughing out of happiness.
-		// greet2: That creature waves at you while smiling, It must be friendly, I guess?
-		// greet3: For some reason, that creature got happy after seeing you, maybe It wasn't expecting another human in this world?
-		// greet4: What sort of creature is that? Is it dangerous? No, It doesn't look like it.
+		greet1: 起初，这个生物在看到我后感到惊讶，然后开始快乐地大笑。
+		greet2: 那个生物微笑着向你挥手，它一定是友好的，我想？
+		greet3: 不知为什么，那生物在看到你后感到高兴，或许它没有料到在这个世界里会遇到另一个人类？
+		greet4: 那是什么生物？危险吗？不，它看起来似乎不危险。
 		//normal
-		// normal1: *[name] is happy seeing you.*
-		// normal2: *[name] asks if you brought him something to eat.*
-		// normal3: *[name] is asking if you want to play with him.*
-		// normal4: *[name] wants you to check out some of his toys.*
-		// normal5: *[name] seems very glad to see that you are safe.*
-		// normal6: *[name] is asking you if you came to ask him to go on an adventure.*
-		// normal7: *[name] thanks you for the food.*
-		// normal8: *[name] seems to be relaxing after eating something.*
-		// normal9: *You can hear [name]'s stomach growl.*
-		// normal10: *[name] seems to be a bit hungry.*
-		// normal11: *[name] asks you what's up.*
-		// normal12: *[name] is telling that he is liking the weather.*
-		// normal13: *[name] seems to be watching some classic horror movie on the tv... No, wait, that's a window.*
-		// normal14: *[name] is trying to hide behind you, he seems scared of the monsters.*
-		// normal15: *As soon as [name] started talking, you hastily asked him to stop, because of the bad trash breath that comes from his mouth.*
-		// normal16: *[name] is sleeping while awake.*
-		// normal17: *[name] is trying hard to keep It's eyes opened.*
-		// normal18: *[name] seems sleepy.*
-		// normal19: *[name] looks scared.*
-		// normal20: *[name] is trembling in terror..*
-		// normal21: *[name] asks if his house is secure.*
-		// normal22: *[name] seems to be enjoying the party.*
-		// normal23: *[name] is talking about a jetpack joyride?*
-		// normal24: *[name] told you that got the highest score at his last golf match.*
-		// normal25: *[name] seems to be crying, and with a purple left eye, I guess his dialogue with [gn:1] went wrong.*
-		// normal26: *[name] seems to be crying, and with his right cheek having a huge red paw marking, I wonder what he was talking about with [gn:1].*
-		// normal27: *[name] seems to have gotten kicked in his behind. Maybe he annoyed [gn:3]?*
-		// normal28: *[gn:2] is telling [name] that he's lucky that [gn:1] doesn't play her terrible games with him. But [name] insists that he wanted to play.*
-		// normal29: *[name] asked [gn:1] why she doesn't play with him, she told him that she can't even bear seeing him.*
-		// normal30: *[name] asked [gn:3] why he doesn't play with him, and he told him that It's because he makes [gn:1] upset.*
-		// normal31: *[name] says that he loves playing with [gn:5], but wonders why he always finds him during hide and seek.*
-		// normal32: *[name] says that finding [gn:5] made the town very lively.*
-		// normal33: *[name] said that [gn:8] looks familiar, have they met before?*
-		// normal34: *[name] hugs you. It feels a bit weird. He's never hugged you without a reason before.*
-		// normal35: *[name] says that sometimes he feels weird when [gn:16] stares at him for too long.*
-		// normal36: *[name] is asking you if you know why [gn:16] looks at him, with her paw on her chin.*
-		// normal37: *[name] says that playing with [gn:5] and [gn:16] has been one of the most enjoyable things he has done, and asks you to join too.*
-		// normal38: *[name] is telling you that [gn:21] is his newest friend.*
-		// normal39: *[name] says that loves playing with [gn:21].*
-		// normal40: *[name] says that after meeting [gn:23], he has been eating several tasty foods.*
-		// normal41: *[name] asks what is wrong with the seasonings he brings to [gn:23].*
-		// normal42: *[name] is really happy for having [gn:26] around. He really seems to like her.*
-		// normal43: *[name] seems to be expecting [gn:26] to visit him soon.*
-		// normal44: *[name] wishes [tggodname] blessings upon you.*
-		// normal45: *[name] seems to like having [gn:33] around.*
-		// normal46: *[name] is telling me to plug my nose.*
-		// normal47: *[name] is asking if there is no other moment to chat.*
-		// normal48: *[name] seems about scared of the ghost on your shoulders.*
+		normal1: *[name] 看到你很开心。*
+		normal2: *[name] 问你是否带来了什么好吃的。*
+		normal3: *[name] 正在问你是否想和他一起玩。*
+		normal4: *[name] 希望你看看他的玩具。*
+		normal5: *[name] 看到你安全过来，似乎非常高兴。*
+		normal6: *[name] 在问你是否来邀请他去冒险。*
+		normal7: *[name] 谢谢你的食物。*
+		normal8: *[name] 吃完东西后似乎很放松。*
+		normal9: *你能听到 [name] 的肚子在咕噜。*
+		normal10: *[name] 看起来有点饿。*
+		normal11: *[name] 问你最近怎么样。*
+		normal12: *[name] 告诉你他喜欢这个天气。*
+		normal13: *[name] 似乎在看一些经典的恐怖电影，等等，那是窗户。*
+		normal14: *[name] 正试图躲在你身后，他似乎害怕怪物。*
+		normal15: *一旦 [name] 开始说话，你急忙叫他停下来，因为他口里一股恶臭的垃圾味。*
+		normal16: *[name] 在醒着的时候睡着了。*
+		normal17: *[name] 正努力保持睁眼。*
+		normal18: *[name] 看起来很困。*
+		normal19: *[name] 看起来害怕。*
+		normal20: *[name] 在颤抖惊恐..*
+		normal21: *[name] 问他的家是否安全。*
+		normal22: *[name] 似乎在享受派对。*
+		normal23: *[name] 在谈论一个喷气背包的快乐之旅？*
+		normal24: *[name] 告诉你他在上次高尔夫比赛中得了最高分。*
+		normal25: *[name] 看起来在哭泣，左眼是紫色的，我猜他和 [gn:1] 的对话出了问题。*
+		normal26: *[name] 看起来在哭泣，右脸颊上有巨大红色爪印，我想知道他和 [gn:1] 在谈论什么。*
+		normal27: *[name] 似乎在他的小屁股上被踢了。也许是因为他惹怒了 [gn:3]?*
+		normal28: *[gn:2] 告诉 [name] 他很幸运 [gn:1] 不和他玩那些可怕的游戏。但 [name] 坚持说他想玩。*
+		normal29: *[name] 问 [gn:1] 为什么她不和他玩，她告诉他她甚至无法忍受看到他。*
+		normal30: *[name] 问 [gn:3] 为什么他不和他玩，他告诉他这都是因为他让 [gn:1] 不高兴。*
+		normal31: *[name] 说他喜欢和 [gn:5] 玩，但想知道为什么他总是在躲猫猫时找到他。*
+		normal32: *[name] 说找到 [gn:5] 让小镇变得非常热闹。*
+		normal33: *[name] 说 [gn:8] 看起来很熟悉，他们见过面吗？*
+		normal34: *[name] 拥抱了你。这感觉有点奇怪。他之前从未无缘无故地拥抱过你。*
+		normal35: *[name] 说有时候他感觉很奇怪，当 [gn:16] 盯着他太久时。*
+		normal36: *[name] 在问你是否知道为什么 [gn:16] 盯着他，手托着下巴。*
+		normal37: *[name] 说和 [gn:5] 以及 [gn:16] 玩是他做过的最愉快的事情之一，并请求你也加入。*
+		normal38: *[name] 正在告诉你 [gn:21] 是他最新的朋友。*
+		normal39: *[name] 说他喜欢和 [gn:21] 玩。*
+		normal40: *[name] 说自从见到 [gn:23] 后，他吃了很多美味的食物。*
+		normal41: *[name] 问 [gn:23] 带来的调料有什么问题。*
+		normal42: *[name] 为有 [gn:26] 在身边而感到非常高兴。他似乎真的很喜欢她。*
+		normal43: *[name] 看起来期待 [gn:26] 很快来拜访他。*
+		normal44: *[name] 祝福 [tggodname] 你。*
+		normal45: *[name] 似乎喜欢有 [gn:33] 在身边。*
+		normal46: *[name] 正在告诉我捏住我的鼻子。*
+		normal47: *[name] 在问如果没有别的时间可以聊天。*
+		normal48: *[name] 对你肩上的鬼魂似乎很害怕。*
 		//talk
-		// talk1: *[name] showed you a rare insect he found, he seems very happy about that.*
-		// talk2: *[name] is asking you when another party will happen.*
-		// talk3: *[name] seems to want a new toy, but what could I give him?*
-		// talk4: *[name] wants to explore the dungeon sometime.*
-		// talk5: *[name] is asking me if [nn:17] has put his trash can outside.*
-		// talk6: *[name] seems to want to go on an adventure with you.*
-		// talk7: *[name] is enjoying travelling with me.*
-		// talk8: *[name] seems to like killing insects with gasoline, I wonder where he acquired that.*
-		// talk9: *[name] is soaked and cold.*
-		// talk10: *[name] looks surprised at [gn:1], and suddenly forgets what he was going to talk about.*
-		// talk11: *[name] is asking if you could let him play with [gn:2].*
+		talk1: *[name] 向你展示了他找到的稀有昆虫，他似乎对此非常高兴。*
+		talk2: *[name] 在问你下一个派对什么时候会举行。*
+		talk3: *[name] 似乎想要一个新玩具，但我能送他什么呢？*
+		talk4: *[name] 希望能和你一起探索地下城。*
+		talk5: *[name] 在问我 [nn:17] 是否把垃圾桶放在外面了。*
+		talk6: *[name] 似乎想和你一起冒险。*
+		talk7: *[name] 在和我一起旅行的时候很享受。*
+		talk8: *[name] 似乎喜欢用汽油杀死昆虫，我想知道他从哪里学来的。*
+		talk9: *[name] 全身湿透，感觉很冷。*
+		talk10: *[name] 对 [gn:1] 感到很惊讶，突然忘记了他要谈论的事情。*
+		talk11: *[name] 在问你是否可以让他和 [gn:2] 玩。*
 		//other topics
-		// othertopicfirsttime: *[name] asks what you want to talk about.*
-		// othertopicafterfirst: *[name] asks if there is something else you want to talk about.*
-		// othertopicnevermind: *[name] seems happy to have talked with you.*
+		othertopicfirsttime: *[name] 在问你想谈论什么。*
+		othertopicafterfirst: *[name] 在问你是否还有其他想谈的话题。*
+		othertopicnevermind: *[name] 似乎很高兴和你谈过。*
 		//requests
-		// request1: *[name] says that he doesn't need anything right now..*
-		// request2: *[name] told me that he wants nothing right now.*
-		// request3: *[name] is asking me to [objective] for him.*
-		// request4: *[name] is looking at me with a funny face while telling me that he wants you to [objective], like as If he didn't want to ask for help.*
-		// request5: *[name] was so happy that started laughing out loud.*
-		// request6: *[name] is so impressed that you did what he asked, that even gave you a hug.*
-		// request7: *[name] looks at you with a sad face.*
-		// request8: *[name] smiles to you.*
-		// request9: *[name] seems sad.*
-		// request10: *[name] is worried because you have too many requests.*
-		// request11: *[name] waves you goodbye.*
-		// request12: *[name] awaits anxiously for you to tell him the request is completed.*
-		// request13: *[name] reminds you that you have to [objective].*
-		// request14: *[name] scratches his head, then asks if you really don't want to do his request anymore.*
-		// request15: *[name] shows you a sad face, and then say that It's fine.*
-		// request16: *[name] shows a little smile.*
+		request1: *[name] 说他现在不需要任何东西..*
+		request2: *[name] 告诉我他现在不想要任何东西。*
+		request3: *[name] 在问我是否能为他 [objective]。*
+		request4: *[name] 对着我做了个搞笑的表情，告诉我他想让你 [objective]，就像他不想要求帮助一样。*
+		request5: *[name] 开心得笑出声来。*
+		request6: *[name] 对你完成他要求的事情感到如此惊讶，以至于甚至给了你一个拥抱。*
+		request7: *[name] 看着你，露出一脸悲伤。*
+		request8: *[name] 对你微笑。*
+		request9: *[name] 看起来很伤心。*
+		request10: *[name] 在担心你有太多请求。*
+		request11: *[name] 向你挥手告别。*
+		request12: *[name] 焦急地等待你告诉他请求完成。*
+		request13: *[name] 提醒你必须 [objective]。*
+		request14: *[name] 挠着头，问你是否真的不想再做他的请求了。*
+		request15: *[name] 露出一脸难过，然后说没关系。*
+		request16: *[name] 露出一个小微笑。*
 		//join
-		// join1: *[name] seems happy that you asked, and agrees to follow you.*
-		// join2: *[name] says that he is worried about the number of people in your group. He sees no way of fitting in it.*
-		// join3: *[name] doesn't feel okay with joining your group right now.*
+		join1: *[name] 似乎很高兴你问他，并同意跟随你。*
+		join2: *[name] 说他担心你队伍的人数。他认为没有办法融入其中。*
+		join3: *[name] 现在觉得不太适合加入你的队伍。*
 		//leave
-		// leave1: *[name] gives you a farewell, and tells you that he had fun on the adventure.*
-		// leave2: *[name] seems worried about leaving the group outside of a safe place.*
-		// leave3: *[name] tells you to be careful on your travels, and that he will see you back at home.*
-		// leave4: *[name] seems relieved when you changed your mind.*
+		leave1: *[name] 向你告别，告诉你他在这次冒险中很开心。*
+		leave2: *[name] 对在安全处以外离开队伍感到担忧。*
+		leave3: *[name] 告诉你在旅行中要小心，他会在家等你回来。*
+		leave4: *[name] 似乎很松了一口气，当你改变主意的时候。*
 		//mount
-		// mount1: *[name] happily allows. He then picked you up and put you on his shoulder.*
-		// mount2: *[name] is happy that you're willing to carry him.*
-		// mount3: *[name] doesn't think this is a good moment for that.*
-		// mount4: *[name] refused. Maybe he doesn't entirely trust you.*
-		// mount5: *[name] says that will carry [target] for you.*
-		// mount6: *[name] asks you who should he carry.*
+		mount1: *[name] 愉快地同意了。然后他把你抱起来放在肩上。*
+		mount2: *[name] 对你愿意载他感到开心。*
+		mount3: *[name] 认为现在不是好时机。*
+		mount4: *[name] 拒绝了。也许他并不完全信任你。*
+		mount5: *[name] 说会为你背 [target]。*
+		mount6: *[name] 在问你他应该背谁。*
 		//dismount
-		// dismount1: *[name] nodded, and then placed you on the ground.*
-		// dismount2: *[name] said yes, and then got off your shoulder.*
-		// dismount3: *[name] doesn't think this is a good moment for that.*
+		dismount1: *[name] 点点头，然后把你放在地上。*
+		dismount2: *[name] 同意了，然后从你肩上下来。*
+		dismount3: *[name] 认为现在不是好时机。*
 		//move in
-		// movein1: *[name] happily accepted to live here with you.*
-		// movein2: *[name] is saddened to tell you that he can't.*
-		// movein3: *[name] doesn't fully trust you to stay here in this world.*
+		movein1: *[name] 高兴地接受住在这里与你的提议。*
+		movein2: *[name] 悲伤地告诉你他不能。*
+		movein3: *[name] 不完全信任你留在这个世界。*
 		//move out
-		// moveout1: *[name] begins crying as he packs his things to leave.*
-		// moveout2: *[name] tells you that now he can't leave.*
-		// moveout3: *[name] told you that he won't be moving out.*
+		moveout1: *[name] 在收拾行李离开时哭了。*
+		moveout2: *[name] 告诉你他现在不能离开。*
+		moveout3: *[name] 告诉你他不会搬出去。*
 		//share chair
-		// sharechair1: *[name] says that he will gladly do that, and wishes you tell him stories meanwhile.*
-		// sharechair2: *[name] tells you that it's fine, and asks if you will still tell him stories.*
+		sharechair1: *[name] 说他很乐意这样，并希望你能给他讲故事。*
+		sharechair2: *[name] 告诉你没问题，并问你是否还会给他讲故事。*
 		//share bed
-		// sharebed1: *[name] told you that he will share his bed with you.*
-		// sharebed2: *[name] said that it's fine.*
+		sharebed1: *[name] 告诉你他会和你分享他的床。*
+		sharebed2: *[name] 说没关系。*
 		//tactics
-		// tactics1: *[name] asks what should he do in combat.*
-		// tactics2: *[name] says that he will not let anything get close to you.*
-		// tactics3: *[name] told you that he will try keeping his distance from monsters.*
-		// tactics4: *[name] tells you that he will take on the monsters by distance.*
-		// tactics5: *[name] asks if you want to talk about something else.*
-		// tactics6: *[name] acknowledges, and says that will be following you from ahead.*
-		// tactics7: *[name] tells you that will be following behind.*
-		// tactics8: *[name] doesn't seems to like the idea, but says he's okay with that.*
-		// tactics9: *[name] tells you that will help on the defense too.*
-		// tactics10: *[name] tells you that will not leave you alone.*
-		// tactics11: *[name] says that will begin doing that.*
-		// tactics12: *[name] says that will stop doing that.*
+		tactics1: *[name] 在问他在战斗中该怎么办。*
+		tactics2: *[name] 说他不会让任何东西靠近你。*
+		tactics3: *[name] 告诉你他会尽量与怪物保持距离。*
+		tactics4: *[name] 告诉你他会远方对付怪物。*
+		tactics5: *[name] 在问你是否想谈论别的事情。*
+		tactics6: *[name] 认可，并说他会在前面跟随你。*
+		tactics7: *[name] 告诉你他会跟在后面。*
+		tactics8: *[name] 看起来不太喜欢这个主意，但还是说他没关系。*
+		tactics9: *[name] 告诉你他也会协助防御。*
+		tactics10: *[name] 告诉你他不会把你一个人丢下。*
+		tactics11: *[name] 说他将开始这么做。*
+		tactics12: *[name] 说他将停止这么做。*
 		//sleeping
-		// sleep1: (He must be dreaming about playing with someone.)
-		// sleep2: (You got startled when he looked at your direction and smiled.)
-		// sleep3: (He seems to be sleeping fine.)
-		// sleep4: *[name] woke up, and smiled upon seeing you.*
-		// sleep5: *[name] looks at you after waking up, and asks what do you need.*
-		// sleep6: *[name] seems quite tired, but stood up to see what you want.*
-		// sleep7: *[name] asks you if you did his request.*
-		// sleep8: *[name] smiles at you, and asks if you did his request.*
+		sleep1: (他一定在梦见和某人一起玩。)
+		sleep2: (当他朝你的方向看并微笑时，你吓了一跳。)
+		sleep3: (他似乎睡得很好。)
+		sleep4: *[name] 醒来，看到你时微笑。*
+		sleep5: *[name] 醒来后看着你，问你需要什么。*
+		sleep6: *[name] 看起来很累，但站起来看看你想要什么。*
+		sleep7: *[name] 问你是否做了他的请求。*
+		sleep8: *[name] 对你微笑并问你是否做了他的请求。*
 		//control
-		// control1: *[name] accepts and Bond-Merged your bodies together.*
-		// control2: *[name] released the Bond-Merge with your bodies.*
-		// control3: *[name] apologizes, saying that can't Bond-Merge right now.*
-		// control4: *[name] tells you that can't undo the Bond-Merge at the moment.*
-		// control5: *[name] says no.*
-		// control6: *[name] seems happy that you're talking to him.*
-		// control7: *[name] asks if you need something from him.*
-		// control8: *[name] is cheering for you.*
-		// control9: *[name] says that will take the control then, and that you should let him know when to return control.*
-		// control10: *[name] gives back control to you.*
+		control1: *[name] 接受并与您的身体结合。*
+		control2: *[name] 解除与您的身体的结合。*
+		control3: *[name] 道歉，说现在不能绑定合并。*
+		control4: *[name] 告诉你现在无法解除绑定合并。*
+		control5: *[name] 说不。*
+		control6: *[name] 似乎很高兴你在和他说话。*
+		control7: *[name] 在问你是否需要他帮忙。*
+		control8: *[name] 在为你加油。*
+		control9: *[name] 说他将接管控制权，然后你应该告诉他何时返回控制权。*
+		control10: *[name] 把控制权交还给你。*
 		//unlocks
-		// unlock1: *[name] says that he entrusts his life to you.*
-		// unlock2: *[name] says that he can let you ride on his shoulder If your feet are tired.*
-		// unlock3: *[name] seems really excited to tell you something. He said that you've been a great friend to him, and that wanted to retribute that by telling you that if you pick him as your Buddy, he would say yes right away.*
-		// unlock4: *[name] says that he's very happy with being picked as a Buddy, and let you know that since you two are Buddies, you can ask him to do anything and he will do it since you two are way over simple friendship.*
+		unlock1: *[name] 说他把自己的生命托付给你。*
+		unlock2: *[name] 说如果你的脚累了，他可以让你骑在他的肩膀上。*
+		unlock3: *[name] 似乎很兴奋想告诉你些什么。他表示你是他最好的朋友，他想回报你，如果你选择他作为你的伙伴，他会立刻说好。*
+		unlock4: *[name] 说他很高兴被选为伙伴，并告诉你，既然你们是伙伴，你可以要求他做任何事情，因为你们的关系已经超越了简单的友谊。*
 		//interactions
-		// interaction1: *[name] is curious to know what you need his help for.*
-		// interaction2: *[name] says that he will happily do that.*
-		// interaction3: *[name] tells you that he can't do that.*
-		// interaction4: *[name] questions himself why you asked at first.*
+		interaction1: *[name] 想知道你需要他帮忙做什么。*
+		interaction2: *[name] 说他会很乐意这么做。*
+		interaction3: *[name] 告诉你他不能这么做。*
+		interaction4: *[name] 在问自己你为什么一开始问。*
 		//changeleader
-		// changeleader1: *[name] acknowledges.*
-		// changeleader2: *[name] refuses.*
+		changeleader1: *[name] 认可。*
+		changeleader2: *[name] 拒绝。*
 		//buddy
-		// buddy1: *[name] seems surprised when you asked him to be your Buddy. He then asked if you're sure of that.*
-		// buddy2: *[name] is surprised that was picked as a buddy. He seems so happy that he is even crying.*
-		// buddy3: *[name] looks disappointed, and says that it's fine.*
-		// buddy4: *[name] apologizes, and says that you're not his friend enough for that.*
-		// buddy5: *[name] rejected that for now.*
-		// buddy6: *[name] reminds you that you've picked a Buddy already.*
+		buddy1: *[name] 在你问他成为你伙伴时感到惊讶。他接着问你是否确定。*
+		buddy2: *[name] 对被选为伙伴感到惊讶。他非常高兴，以至于甚至哭了。*
+		buddy3: *[name] 看起来很失望，并说没关系。*
+		buddy4: *[name] 道歉，并说你还不够朋友。*
+		buddy5: *[name] 暂时拒绝了。*
+		buddy6: *[name] 提醒你你已经选择了一个伙伴。*
 		//invite
-		// invite1: *[name] says that he will happily visit you. And that you should expect him to show up soon.*
-		// invite2: *[name] says that he can visit you, but only tomorrow.*
-		// invite3: *[name] says that he can't right now.*
-		// invite4: *[name] seems sad that you cancelled his visit.*
-		// invite5: *[name] tells you that he arrived.*
+		invite1: *[name] 说他会愉快地来拜访你，并且你应该期待他很快出现。*
+		invite2: *[name] 说他可以拜访你，但只能明天。*
+		invite3: *[name] 说他现在不能。*
+		invite4: *[name] 似乎很伤心因为你取消了他的拜访。*
+		invite5: *[name] 告诉你他到了。*
 		//other
-		// other1: *[name] is puzzled by what just happened.*
-		// other2: *[name] stares at you and the big bear, without understanding what is happening.*
+		other1: *[name] 对刚刚发生的事情感到困惑。*
+		other2: *[name] 盯着你和大熊，不明白发生了什么。*
 		//revive
-		// revive1: *You heard someone saying that you'll be fine.*
-		// revive2: *[name] is telling you to hold on.*
-		// revive3: *[name] tells you to not try moving too much.*
-		// revive4: *[name] tells you to rest while he heals the wounds.*
-		// revive5: *[name] told you to rest a bit.*
-		// revive6: *[name] is very focused into helping you.*
-		// revive7: *[name] is healing your wounds.*
-		// revive8: *[name] is trying to calm down the knocked out person.*
-		// revive9: *[name] is tending the wounds.*
-		// revive10: *[name] is attempting to stop the bleeding.*
-		// revive11: *[name] tells the fallen ally they're coming.*
-		// revive12: *[name] told the fallen ally that he will keep them safe.*
-		// revive13: *[name] says that he's fine.*
-		// revive14: *[name] thanks you all.*
-		// revive15: *[name] seems happy for the help.*
+		revive1: *你听到有人说你会没事的。*
+		revive2: *[name] 正在告诉你坚持住。*
+		revive3: *[name] 告诉你不要试着移动太多。*
+		revive4: *[name] 告诉你休息一下，他会帮你疗伤。*
+		revive5: *[name] 告诉你稍微休息一下。*
+		revive6: *[name] 非常专注于帮助你。*
+		revive7: *[name] 正在治疗你的伤口。*
+		revive8: *[name] 正在试图安抚被打晕的人。*
+		revive9: *[name] 正在处理伤口。*
+		revive10: *[name] 正在尝试止血。*
+		revive11: *[name] 告诉倒下的盟友他们很快就来了。*
+		revive12: *[name] 告诉倒下的盟友他会保护他们。*
+		revive13: *[name] 说他没事。*
+		revive14: *[name] 谢谢你们。*
+		revive15: *[name] 对帮助感到高兴。*
 		//recruitment related
-		// recruitalias: Raccoon Guardian
-		// rococoleaves: The Raccoon vanished in the sunset.
-		// recmes1: *He tells you that it's good to see you again.*
-		// recans1: Hello.
-		// recmes2: *The creature is surprised for seeing me, said that has been traveling over and over looking for a place with cool people to live with. Should I let It live in my world?*
-		// recans2-1: You may live here.
-		// recans2-2: Sorry, but no.
-		// recmes3: *It asks if it can settle in the world already.*
-		// recmes4: *The raccoon creature looks sad now. Said that maybe other time he can return and ask.*
-		// recans4: Close
-		// recmes5: *It got very happy after I said that It can move into my world, and said that his name is [name].*
-		// recans5: Welcome. I'm [playername].
-		// recmes6: *It got saddened after hearing my refusal. But says that won't feel bad for that. He told you that you can call him anytime if you change your mind, and that his name is [name].*
+		recruitalias: 浣熊守护者
+		rococoleaves: 浣熊在日落时消失了。
+		recmes1: *他告诉你再次见到你真好。*
+		recans1: 你好。
+		recmes2: *这个生物对看到我感到惊讶，说他一直在旅行，寻找一个有酷人的地方居住。我该让它住在我的世界吗？*
+		recans2-1: 你可以住在这里。
+		recans2-2: 抱歉，不行。
+		recmes3: *它问能否在这个世界安顿下来。*
+		recmes4: *这个浣熊生物现在看起来很伤心。他说也许下次他能再来问。*
+		recans4: 关闭
+		recmes5: *在我说他可以搬到我的世界后，它变得非常高兴，并说他的名字是 [name]。*
+		recans5: 欢迎。我是 [playername]。
+		recmes6: *在听到我的拒绝后，它变得伤心。但他说他不会为此感到不快。他告诉你，如果你改变主意，可以随时叫他，他的名字是 [name]。*
 	}
 
 	Alex: {
