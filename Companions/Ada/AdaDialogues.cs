@@ -156,6 +156,7 @@ namespace terraguardians.Companions
             return base.RequestMessages(companion, context);
         }
 
+        // 对话触发策略  -  加入队伍触发触发
         public override string JoinGroupMessages(Companion companion, JoinMessageContext context)
         {
             companion.SaySomething("Run JoinGroupMessages",true);
@@ -171,6 +172,7 @@ namespace terraguardians.Companions
             return base.JoinGroupMessages(companion, context);
         }
 
+        // 对话触发策略  -  离开队伍触发触发
         public override string LeaveGroupMessages(Companion companion, LeaveMessageContext context)
         {
             companion.SaySomething("Run LeaveGroupMessages",true);
@@ -359,6 +361,7 @@ namespace terraguardians.Companions
             return "*哇，真棒，一个新朋友！*";
         }
 
+        // 对话触发策略  -  加入队伍触发触发
         public override string CompanionJoinPartyReactionMessage(Companion WhoReacts, Companion WhoJoined, out float Weight)
         {
             WhoReacts.SaySomething("Run CompanionJoinPartyReactionMessage",true);
